@@ -1,6 +1,6 @@
+# 书籍内容
 
-
-1、整本书分为上下篇。根据“ai coding大纲简介.md”的内容，重新生成“ new strcture.md”，依然要求比较简洁的语言。具体要求如下：
+1、整本书分为上下篇。根据“ai coding大纲简介.md”的内容，重新生成“ new structure.md”，依然要求比较简洁的语言。具体要求如下：
 
 - 上篇是AI CODING流程的了解，是网页版的实现。围绕网页版五子棋的实现，一步步结合上篇1-7章知识点，完善五子棋小程序的实现。
 
@@ -11,8 +11,17 @@
 - 下篇最后有2-3个实战项目，构思项目的大致情况，开放类，即生成结果一部分能用检验代码检验。题目类型比较灵活。
 
 2、将下面的内容新增到大纲合适的位置中
-### 第12章 Harness Engineering
+###  Harness Engineering
 * 什么是Harness Engineering
 * 为什么需要Harness Engineering
 * Harness Engineering 的四大支柱
 * 先进团队的实战
+
+# 功能要求
+
+前后端部分：
+
+AI 助手区域：
+- 支持更改html文件
+- 同时实时显示html文件渲染结果
+- 【可选】：支持html文件的下载
