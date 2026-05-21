@@ -86,11 +86,22 @@
 
 # 下篇：本地端 AI Coding 与工程实践
 
-**主线贯穿：开发本地文件自动化整理工具——“文件小助手”**
-
-*脱离网页，深入本地 IDE 与终端，安全且高效地让 AI 操控你的系统环境。*
+**主线贯穿：MNIST手写数字识别项目**
 
 
+*脱离网页，深入本地 IDE 与终端，进阶学习AI CODING日常化编程*
+
+MNIST手写数字识别（CV基础）
+
+技能重点：CNN架构设计（LeNet→ResNet）、数据增强（旋转/平移）、模型轻量化（知识蒸馏）
+
+高阶玩法：在Kannada MNIST数据集实现迁移学习
+
+项目来源1：和鲸社区手写数字识别（推荐）https://www.heywhale.com/mw/project/6a0e5ccb5ba04f7e48eeda96
+
+
+项目数据链接2：kaggle
+https://www.kaggle.com/datasets/martininf1n1ty/mnist100?resource=download
 
 ## 第二部分：环境、调试与质量控制
 
@@ -100,24 +111,23 @@
 
 主要教用户如何在本地使用ai coding，环境配置，使用技巧，介绍如codex,trae等使用，模型的选取，模型的配置
 
-* 结合文件管家：新建本地工作区、配置 Python/脚本环境与模型参数选择
+* 结合项目：新建本地工作区、配置 Python/脚本环境与模型参数选择
 
 ### 第9章 本地上下文与多文件穿透
 
 * 目录结构 (Tree) 与依赖关系传递
-* 结合文件管家：如何让 AI 准确理解你的桌面文件夹树状结构与分类规则
 * 外部文档引入与全局文件提醒技巧
+
+* 结合项目：如何让 AI 准确理解你的项目文件夹与分类规则
 
 ### 第10章 报错排查与终端调试 (Debugging)
 
 * 终端 Error Log 与堆栈提取
-* 结合文件管家：解决 AI 批量移动文件时产生的“路径找不到”或“权限拒绝 (Permission Denied)”等系统级报错
 * 逐行解析与依赖冲突排查
 
 ### 第11章 代码审查与结果验证
 
 * 核心逻辑与边界条件人工校验
-* 结合文件管家：执行文件级操作前的“Dry Run（试运行）”设计与安全审计
 * 安全审计与性能复杂度优化
 * 自动化单元测试生成与代码简洁度优化
 
@@ -152,12 +162,28 @@ https://www.kaggle.com/code/alexisbcook/titanic-tutorial
 
 ### 第15章 开放式综合实战三：
 
-MNIST手写数字识别（CV基础）
+泰坦尼克生存预测（分类入门）+可视化
 
-技能重点：CNN架构设计（LeNet→ResNet）、数据增强（旋转/平移）、模型轻量化（知识蒸馏）
+数据集：12列特征（含年龄/舱位等级等）
 
-高阶玩法：在Kannada MNIST数据集实现迁移学习
+技能重点：缺失值填充策略（众数/中位数）、类别特征编码（One-Hot vs Target Encoding）、模型可解释性分析（SHAP值）
 
-项目数据链接：
+挑战目标：在Kaggle Leaderboard冲进前10%（Accuracy>0.81）
 
-https://www.kaggle.com/datasets/martininf1n1ty/mnist100?resource=download
+项目数据链接1：
+https://www.kaggle.com/code/alexisbcook/titanic-tutorial
+
+可视化项目链接（可结合）：
+https://www.heywhale.com/mw/project/606d6a50d884b70017a76734/dataset
+
+###### 第16章 实战四：倒计时
+
+* 全流程闭环：需求构思 -> 架构 Prompt -> 代码生成 -> 终端调试 -> 成果验证与 Git 提交
+* 人机协作价值复盘
+
+* **全流程体验：**
+1. 你用文字提需求：“我要个倒计时”。
+2. AI 生成网页画面和按钮。
+3. AI 补齐倒计时的时间逻辑。
+4. 点击运行，发现倒计时停不下来（模拟 Bug）。
+5. 把问题喂给 AI，让它帮你修好。
