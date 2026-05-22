@@ -198,7 +198,7 @@ https://www.kaggle.com/code/alexisbcook/titanic-tutorial
 可视化项目链接（可结合）：
 https://www.heywhale.com/mw/project/606d6a50d884b70017a76734/dataset
 
-#### 第15章 开放式综合实战三：
+### 第15章 开放式综合实战三：
 
 项目名：本地倒计时
 
