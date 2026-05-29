@@ -50,3 +50,24 @@ Train.csv将包含机上乘客部分细节（确切地为891人），重要的�
 
 ### 可视化项目链接（可结合）：
 https://www.heywhale.com/mw/project/606d6a50d884b70017a76734/dataset
+
+## 本项目代码
+
+已补充完整代码文件：`titanic_model.py`
+
+运行方式：
+
+```bash
+pip install -r requirements.txt
+python titanic_model.py --run
+```
+
+运行后会在 `outputs/` 目录生成：
+
+- `submission.csv`：可提交到 Kaggle 的预测结果，格式为 `PassengerId,Survived`
+- `model_comparison.csv`：Logistic Regression、Random Forest、Gradient Boosting 的 5 折交叉验证结果
+- `summary.md` / `metrics.json`：最佳模型、验证集准确率、混淆矩阵和简要结论
+- `feature_importance.csv` / `feature_importance.png`：模型可解释性结果
+- `survival_count.png`、`survival_by_sex.png`、`survival_by_pclass.png`、`age_distribution.png`：数据可视化图表
+
+当前本地运行结果中，最佳模型为 `gradient_boosting`，5 折交叉验证 Accuracy 约为 `0.8406`。

@@ -1,0 +1,17 @@
+{
+  "best_model": "gradient_boosting",
+  "best_cv_accuracy_mean": 0.84062,
+  "best_cv_accuracy_std": 0.015,
+  "holdout_accuracy": 0.7933,
+  "confusion_matrix": [
+    [
+      94,
+      16
+    ],
+    [
+      21,
+      48
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n           0       0.82      0.85      0.84       110\n           1       0.75      0.70      0.72        69\n\n    accuracy                           0.79       179\n   macro avg       0.78      0.78      0.78       179\nweighted avg       0.79      0.79      0.79       179\n"
+}
