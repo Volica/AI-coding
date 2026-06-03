@@ -71,3 +71,5 @@ python titanic_model.py --run
 - `survival_count.png`、`survival_by_sex.png`、`survival_by_pclass.png`、`age_distribution.png`：数据可视化图表
 
 当前本地运行结果中，最佳模型为 `gradient_boosting`，5 折交叉验证 Accuracy 约为 `0.8406`。
+
+![alt text](image.png)
